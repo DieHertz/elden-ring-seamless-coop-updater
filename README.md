@@ -1,5 +1,5 @@
 ### Why?
-Each update of the Seamless Coop mod set us back for a while because I had to walk my friend through the update process, so I wrote this script.
+Each update of the [SeamlessCoop](https://github.com/LukeYui/EldenRingSeamlessCoopRelease) mod set us back for a while because I had to walk my friend through the update process, so I wrote this script.
 
 ### How to use
 1. Download the script somewhere
