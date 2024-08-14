@@ -63,8 +63,8 @@ def update_to(
             unzip {archive_path} -d {uncompressed_path} && \
             sed -i {config_path} -e 's/cooppassword =.*/cooppassword = {PASSWORD}/g' \
               {config_path} && \
-            cp -r {uncompressed_path}/* {_ELDEN_RING_PATH}) >/dev/null 2>&1 && \
-            echo '{version}' > {_MOD_VERSION_PATH} && \
+            cp -r {uncompressed_path}/* "{_ELDEN_RING_PATH}") >/dev/null 2>&1 && \
+            echo '{version}' > "{_MOD_VERSION_PATH}" && \
             echo 'Updated to {version_name}'
         ''')
 
@@ -87,3 +87,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+    input('Press Enter to exit')
